@@ -15,12 +15,12 @@ Sign in 페이지를 함께 만들어보는  토이 프로젝트를 진행해 �
 <br>
 랜딩 페이지 img 1
 
-![landing page 1](./images/starbucks_landing_page1.png)
+![landing page 1](https://github.com/dysung32/starbucks/blob/master/images/starbucks_landing_page1.PNG?raw=true)
 <br><br>
 랜딩 페이지 img 2
 
-![landing page 1](./images/starbucks_landing_page2.png)
+![landing page 2](https://github.com/dysung32/starbucks/blob/master/images/starbucks_landing_page2.PNG?raw=true)
 <br><br>
 Sign in 페이지 img
 
-![sign in page](./images/starbucks_signin_page.png)
+![sign in page](https://github.com/dysung32/starbucks/blob/master/images/starbucks_signin_page.PNG?raw=true)
