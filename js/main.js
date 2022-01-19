@@ -1,21 +1,3 @@
-const searchEl = document.querySelector('.search');
-const searchInputEl = searchEl.querySelector('input');
-
-searchEl.addEventListener('click', function() {
-  searchInputEl.focus(); // search(돋보기) 요소 클릭 시 input 요소 focus됨
-});
-
-searchInputEl.addEventListener('focus', function() { // input 요소가 foucs되면 
-  searchEl.classList.add('focused'); // search 요소에 'focused'라는 class를 추가
-  searchInputEl.setAttribute('placeholder', '통합검색'); // '통합검색'이라는 placeholder 삽입
-});
-
-searchInputEl.addEventListener('blur', function() { // input 요소가 blur(focus가 해제)되면
-  searchEl.classList.remove('focused'); // search 요소에 'focused'라는 class를 삭제
-  searchInputEl.setAttribute('placeholder', ''); // placeholder 비움
-});
-
-
 const badgeEl = document.querySelector('header .badges');
 const toTopEl = document.querySelector('#to-top'); // SCROLL TO TOP 부분에 활용
 
@@ -161,9 +143,3 @@ spyEls.forEach(function(spyEl) {
     .setClassToggle(spyEl, 'show') // HTML class를 넣었다 뺐다 제어하는 기능
     .addTo(new ScrollMagic.Controller()); // addTo(): ScrollMagic 라이브러리에 필요한 컨트롤러 내용을 추가하기 위한 함수
 });
-
-
-
-// 올해 연도 구하기
-const thisYear = document.querySelector('.this-year');
-thisYear.textContent = new Date().getFullYear(); // 2022
